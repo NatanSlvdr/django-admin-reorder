@@ -3,9 +3,6 @@
 Easy way to order and rename models in the django admin page.
 
 
-## Origin
-
-When searching alternatives to [django-modeladmin-reorder](https://github.com/mishbahr/django-modeladmin-reorder), i found [this thread](https://forum.djangoproject.com/t/reordering-list-of-models-in-django-admin/5300) that gave me the idea of changing model names and order just by adding the data to the modeladmin. 
 ## Features
 
 - Ordering Models inside Categories (ex: model ```truck``` before model ```car```)
@@ -14,13 +11,6 @@ When searching alternatives to [django-modeladmin-reorder](https://github.com/mi
 
 
 
-## Supported Versions
-
-Works on Django:
-- 5.0
-- 4.2 
-
-These are the only versions i tested, might work on more.
 ## Installation
 (not published yet)
 
@@ -66,11 +56,21 @@ class MyExampleModelAdmin(admin.ModelAdmin):
 
 
 ```
+## Supported Versions
+
+Works on Django:
+- 5.0
+- 4.2 
+
+These are the only versions i tested, might work on more.
 ## Roadmap
 
 - Support listing a model more than once
 
 
+## Origin
+
+When searching alternatives to [django-modeladmin-reorder](https://github.com/mishbahr/django-modeladmin-reorder), i found [this thread](https://forum.djangoproject.com/t/reordering-list-of-models-in-django-admin/5300) that gave me the idea of changing model names and order just by adding the data to the modeladmin. 
 ## FAQ
 
 #### How does it work
